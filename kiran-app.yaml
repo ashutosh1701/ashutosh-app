@@ -11,7 +11,7 @@ spec:
         app: kiran-app
     spec:
       containers:
-      - image: kiranpampana/kiran-app
+      - image: ashutosh1710204/kiran-app
         name: kiran-app
         env:
         - name: MYSQL_HOST
