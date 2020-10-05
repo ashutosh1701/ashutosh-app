@@ -10,9 +10,7 @@ spec:
       labels:
         app: kiran-app
     spec:
-      containers:
-      imagePullSecrets:
-      - name: docker-hub  
+      containers: 
       - image: ashutosh1710204/kiran-app:latest
         name: kiran-app
         env:
